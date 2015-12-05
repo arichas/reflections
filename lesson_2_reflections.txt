@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+The .git file is added to the respository upon initialization. Without this file, which is hidden, it will not be recognized as a git repository, and the power of git will go unleashed.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area has changes in it that have yet to be committed. This gives us the chance to review changes before committing.
