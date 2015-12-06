@@ -3,3 +3,18 @@ The .git file is added to the respository upon initialization. Without this file
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area has changes in it that have yet to be committed. This gives us the chance to review changes before committing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area can accomodate multiple files, each with small changes that together comprise a logical change worth committing.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+It would be helpful to have branches when significant changes are being implemented, such as experimental features or new languages.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams show commits on each branch, and which ones may not be reachable, and therefore not listed in a particular git log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Following a merge, commits from both branches are located on the branch that was checked out at time of merge, assuming that branch's label.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves a lot of time, while the manual process will ensure code from all contributors is seen, checked, and understood.
