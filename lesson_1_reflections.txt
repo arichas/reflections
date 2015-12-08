@@ -19,4 +19,15 @@ How might using version control make you more confident to make changes that cou
 It helps to know that I can always revert to a previous version using Git.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-Simple stuff, like version control duh. Gulp I hope I can figure it out.
+Version control for my projects as I try new things, and collaborating with others on cool stuff.
+
+Commands:
+
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file
+git diff id1 id2  |    Compare two commits
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git status | show which files have changed since the last commit
+q |  exit git log!
