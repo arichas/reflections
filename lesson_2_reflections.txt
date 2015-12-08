@@ -18,3 +18,21 @@ Following a merge, commits from both branches are located on the branch that was
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Automatic merging saves a lot of time, while the manual process will ensure code from all contributors is seen, checked, and understood.
+
+Commands:
+
+git add  |    Add a file to the staging area
+git branch | shows current branches
+git branch -d name  |    Remove the branch with the specified name
+git branch name | creates a new branch called name
+git checkout -b new_branch_name  |  Creates a new branch and checks it out instead of git branch new_branch_name and git checkout new_branch_name
+git checkout master  |    Restore the "Head" to the latest check-in
+git commit  |    Commit the files from the staging area to the repository
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git gc  |  manually run garbage collection
+git log --graph --oneline <branch1> <branch2>  |    Show a visual representation of the commit history within different branches
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1. The label of the checked-out branch will be used.
+git reset --hard  |    Undo all changes from both working directory and staging area!
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository
