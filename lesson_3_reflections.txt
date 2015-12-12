@@ -1,1 +1,26 @@
 When would you want to create a remote repository rather than keeping all your work local?
+A remote is a great way to share code and collaborate with others.
+It's also a great way to back up your work in the cloud.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Pulling manually will ensure I'm getting the files I need, when I need them.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork will copy over a remote to my own account, which I could then clone so I can pull it to my own
+computer and work on it locally. By creating branches, off of the master, I work on various bug fixes
+and new features while not affecting the live version.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It's good to have a copy stored locally in case your site or application encounters
+issues and needs to be restored from a reliable version.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+With Git and Github, collaboration and sharing tools are built directly into the platforms,
+which means multiple other tools can be left aside, such as email, file sharing tools, etc.
+There may be new commands and functionality to learn on Git and Git Hub, but it's worth it!
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+The master is the live production version of your site or master, and as such, is not really meant to be messed with.
+Any change or new feature should be worked on in a separate branch, then merged into the master. Changing master directly
+would certainly be quicker, but there's less opportunity for others to review your work, and more chance of introducing a bug
+in the master version.
