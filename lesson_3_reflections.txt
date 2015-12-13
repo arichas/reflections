@@ -24,3 +24,20 @@ The master is the live production version of your site or master, and as such, i
 Any change or new feature should be worked on in a separate branch, then merged into the master. Changing master directly
 would certainly be quicker, but there's less opportunity for others to review your work, and more chance of introducing a bug
 in the master version.
+
+Commands:
+
+git fetch  |  will update local copy of remote branch without changing any other local changes that may have been made. Then run git log and git diff 				to see changes that were introduced, both on local an remote repositories. Then merge when you are ready.
+git fetch origin  |    Update local copies with chanes from remote on every branch of the origin remote
+git log origin/master OR git diff origin/master master  |  inspect local copies
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git push origin master  |    Push the master branch to the remote location origin.
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote 									location. Url should be the https url to the github repository.
+git remote -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+
+
+
+
+
